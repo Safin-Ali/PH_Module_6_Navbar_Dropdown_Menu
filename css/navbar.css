@@ -1,46 +1,56 @@
-*,*::before,*::after{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
-  html,body{
-    background: #f0f2f5;
-  }
-  nav{
-    background: #5352ed;
-    padding: 20px;
-  }
-  nav ul{
-    display: flex;
-    justify-content: center;
-  }
-  ul li{
-    list-style: none;
-    margin-right: 30px;
-  }
-  a{
-    color: #fff;
-    text-decoration: none;
-  }
-  nav ul li ul{
-    position: absolute;
-    display: none;
-  }
-  nav ul li ul li{
-    border: 1px solid #353535;
-    padding: 10px 10px;
-    background: #5352ed;
-    border-bottom: none;
-  }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
 
-  nav ul li ul li:last-child{
-    border-bottom: 1px solid #353535;
-  }
+html,
+body {
+  background: #f0f2f5;
+}
 
-  nav ul ul ul{
-    position: absolute;
-    left: 143px;
-    top: 20px;
-    display: none;
-  }
+nav {
+  background: #5352ed;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+ul li {
+  list-style: none;
+  margin-right: 30px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li ul {
+  position: absolute;
+  display: none;
+}
+
+nav ul li ul li {
+  border: 1px solid #353535;
+  padding: 10px 10px;
+  background: #5352ed;
+  border-bottom: none;
+}
+
+nav ul li ul li:last-child {
+  border-bottom: 1px solid #353535;
+}
+
+nav ul ul ul {
+  position: absolute;
+  left: 143px;
+  top: 20px;
+  display: none;
+}

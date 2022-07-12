@@ -1,29 +1,37 @@
  /* Hover Effect */
- 
- nav ul li:hover a{
-    color: #e4e2e2;
-  }
-  nav ul li:hover ul{
-    display: block;
-  }
-  nav ul li:hover ul a{
-    color: #fff;
-  }
-  nav ul li:hover ul ul{
-    display: none;
-  }
-  nav ul ul li:hover ul{
-    display: block;
-  }
-  nav ul ul li:hover a{
-    color: #e4e2e2;
-  }
-  nav ul ul li:hover{
-    background: #3f3fee;
-  }
-  nav ul ul li:hover ul a{
-    color: #fff;
-  }
-  nav ul ul ul li:hover a{
-    color: #e4e2e2;
-  }
+
+ nav ul li:hover a {
+   color: #e4e2e2;
+ }
+
+ nav ul li:hover ul {
+   display: block;
+ }
+
+ nav ul li:hover ul a {
+   color: #fff;
+ }
+
+ nav ul li:hover ul ul {
+   display: none;
+ }
+
+ nav ul ul li:hover ul {
+   display: block;
+ }
+
+ nav ul ul li:hover a {
+   color: #e4e2e2;
+ }
+
+ nav ul ul li:hover {
+   background: #3f3fee;
+ }
+
+ nav ul ul li:hover ul a {
+   color: #fff;
+ }
+
+ nav ul ul ul li:hover a {
+   color: #e4e2e2;
+ }
